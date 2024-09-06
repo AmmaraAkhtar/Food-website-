@@ -1,0 +1,118 @@
+
+
+*{
+    overflow: hidden;
+}
+#navbar{
+    height: auto;
+    flex-direction: column;
+
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#options a{
+    font-size: 0.7rem;
+    margin-top: 12px;
+    margin-right: 15px; 
+}
+#options a:hover{
+    width: auto;
+    height: auto;
+}
+#buttons input{
+     height:20px;
+     width: 90px;
+     margin-bottom: 20px;
+
+}
+#buttons input::placeholder{
+    font-size: 0.6rem;
+}
+.button1{
+    height: 20px;
+    width: 80px; 
+    margin-top: 22px;
+    font-size:0.6rem ;
+}
+#home{
+    height: 300px;
+}
+#home p{
+    padding: 20px 500px;
+   margin-top: 10px;
+   font-size: 0.4rem;
+   width: 320px;
+}
+#home h1{
+    font-size: 1.6rem;
+ 
+}
+#service #row1{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 30px;
+
+}
+#service #row1 .item img{
+    border-radius: 20px;
+}
+#about{
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
+    height: 320px;
+    align-items:center;
+}
+
+#about h1{
+    font-size: 3rem;
+     padding-top: 15px;
+     color: rgb(0, 0, 0);
+     padding-left: 0px;
+
+}
+#about  p{
+text-align: center;
+    font-size: 0.5rem;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+    width: 300px;
+}
+#client{
+    height: auto;
+}
+#client div img{
+height: 140px;
+width: 200px;
+}
+#client div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact input{
+    width: 150px;
+}
+#contact textarea{
+width: 150px;
+}
+#contact button{
+    margin-left: 0px;
+}
+footer div p a {
+    font-size: 0.7rem;
+}
+footer #para1{
+font-size: 0.7rem;
+}

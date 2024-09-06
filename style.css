@@ -1,0 +1,278 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Bree Serif", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:red;
+  color: white;
+  height: 80px;
+}
+#logo img{
+    height: 80px;
+    width: 150px;
+}
+#options {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#options a{
+    font-size: 1.3rem;
+    margin-top: 24px;
+    text-decoration: none;
+    color: white;
+    margin-right: 45px;
+}
+#options a:hover{
+    background-color: orange;
+    border-radius: 12px;
+    border:2px;
+    border-color: rgb(255, 179, 0);
+    border-style: solid;
+    color: red;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+}
+#buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#buttons input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 30px;
+    width: 180px;
+    background-color: orange;
+    border-radius: 12px;
+    border:2px;
+    border-color: rgb(255, 179, 0);
+    border-style: solid;
+    color: red;
+}
+#buttons input::placeholder{
+    color: red;
+}
+
+
+/* main section  */
+/* section no 1 home  */
+#home{
+    background-image: url('background\ .jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    
+}
+#home p{
+    width: 800px;
+    margin-top: 20px ;
+text-align: center;
+font-size: 0.9rem;
+    
+}
+#home h1{
+    font-size: 2.5rem;
+}
+/* section 2------services */
+#service{
+    display: flex;
+    flex-direction: column;
+}
+#service #row1{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+
+}
+#service #row1 .item{
+    width: 310px;
+    height: 320px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#service h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    color: red;
+}
+#service #row1 .item img{
+    height: 280px;
+    width: 300px;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#service #row1 .item img:hover{
+    height: 400px;
+    width: 400px;
+}
+#service #row1 .item h2{
+    font-size: 1.9rem;
+}
+#service #row1 .item p{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+/* section 2------about */
+
+ #about{
+margin-top: 40px;
+ display: flex;
+flex-direction: column;
+justify-content: center;
+background-image: url('bac6.jpg');
+height: 800px;
+align-items:flex-end;
+opacity: 0.7;
+color:black;
+ }
+ #about h1{
+    font-size: 4rem;
+    /* color: black; */
+padding-bottom: 20px;
+padding-right: 70px;
+
+ }
+ #about p{
+    font-size: 0.9rem;
+    /* color:black; */
+    width: 450px;
+    text-align: center;
+ }
+
+/* section ------client */
+#client{
+    height: 350px;
+
+}
+#client div{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+#client h1{
+
+    font-size: 4rem;
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+}
+#client div img{
+
+    height: 90px;
+    width: 100px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#contact{
+    height: 550px;
+    background-image: url('contact-us-6933645_1280.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact h1{
+
+    font-size: 3rem;
+    color:rgb(64, 60, 60);
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+#contact input{
+   margin: 7px;
+   padding: 10px;
+   border-radius: 7px;
+   border: 1px;
+   width: 400px;
+   border-color: black;
+   border-style: solid;
+}
+#contact textarea{
+    border-radius: 7px;
+   border: 1px;
+   border-color: black;
+   border-style: solid;
+   margin: 7px;
+   padding: 10px;
+   width: 400px;
+}
+#contact button{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+footer{
+    height: 100px;
+    background-color:red;
+    color:orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+footer p{
+    margin-top: 4px;
+   
+
+}
+footer div p a {
+    text-decoration: none;
+    color: orange;
+}
+
+footer div p a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+/* common classes */
+.button1{
+    margin-left: 1px;
+    margin-top:20px;
+    height: 35px;
+    width: 90px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    border:2px;
+    border-color: orange;
+    border-style: solid;
+    color: red;
+}

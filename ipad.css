@@ -1,0 +1,146 @@
+*{
+    overflow: hidden;
+}
+#navbar{
+    height: auto;
+   flex-wrap: wrap;
+
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo img{
+    height: 140px;
+    width: 160px;
+}
+#options a{
+    font-size: 1.3rem;
+    margin-top: 70px;
+    margin-right: 20px; 
+}
+#options a:hover{
+    width: auto;
+    height: auto;
+}
+#buttons input{
+     height:35px;
+     width: 150px;
+     margin-right: 1px;
+     margin-top: 1px;
+     margin-bottom: 25px;
+
+}
+#buttons input::placeholder{
+    font-size: 1rem;
+}
+.button1{
+    height: 35px;
+    width: 130px; 
+    margin-bottom: 25px;
+    margin-top: 3px;
+    font-size:1rem ;
+}
+#home{
+    height: 300px;
+}
+#home p{
+   margin-top: 25px;
+   font-size: 0.8rem;
+   width: 600px;
+   text-align: center;
+}
+#home button{
+    margin-top: 20px;
+}
+#home h1{
+    font-size: 1.9rem;
+ 
+}
+#service h1{
+    font-size: 3.5rem;
+}
+#service #row1{
+
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 40px;
+
+}
+#about{
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
+    height: 350px;
+}
+#service #row1 .item{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#service #row1 .item img{
+    height: 320px;
+    width: 350px;
+}
+#service #row1 .item h2{
+    font-size: 2rem;
+}
+#service #row1 .item p{
+    font-size: 0.7rem;
+    margin-top: 20px;
+ 
+}
+#about{
+    height: 505px;
+    align-items: center;
+}
+
+#about h1{
+    font-size: 3.6rem;
+     padding-top: 15px;
+     color: rgb(0, 0, 0);
+     padding-left: 0px;
+}
+#about p{
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+#client{
+    height: auto;
+}
+#client div img{
+height: 150px;
+width: 220px;
+}
+#client div{
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+     align-items: center;
+}
+#contact input{
+    width: 350px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+#contact textarea{
+width: 350px;
+}
+#contact button{
+    margin-left: 0px;
+    margin-bottom: 0%;
+}
+footer div p a {
+    font-size: 1.3rem
+}
+footer #para1{
+font-size: 1.3rem;
+}
